@@ -61,12 +61,36 @@ h3{
 
 p{
   color:#40514E;
+  line-height: 2;
 }
 
+hr{
+  border: dotted #EAF6F6 6PX;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: Montserrat, sans-serif;
+  margin: 100px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
 .top-container{
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
 }
 
 /**
@@ -83,12 +107,22 @@ p{
 }
 **/
 
+.intro{
+  width: 30%;
+  position:relative;
+  margin: auto;
+}
 .top-cloud{
   position: absolute;
 
   /** right and top changes the MARGINS, basically it's location on the page relative to the top container**/
   right: 300px;
-  top: 50px;
+  top: 40px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 .bottom-cloud{
@@ -96,7 +130,7 @@ p{
   /**To use this absolute position correctly, the parent needs to be set to relative, otherwise,
   it will be set relative to the BODY... In this case, we're setting top-container to relative.**/
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
@@ -120,6 +154,15 @@ p{
   margin-right: 30px;
 }
 
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
 .learning-img{
   max-width: 20%;
   float: right;
@@ -136,7 +179,7 @@ p{
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: Montserrat;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
