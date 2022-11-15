@@ -1,5 +1,12 @@
 a{
   color: #11999E;
+  font-family: Montserrat, sans-serif;
+  margin: 100px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
 }
 
 body{
@@ -71,16 +78,6 @@ hr{
   margin: 100px auto;
 }
 
-a{
-  color: #11999E;
-  font-family: Montserrat, sans-serif;
-  margin: 100px 20px;
-  text-decoration: none;
-}
-
-a:hover{
-  color: #EAF6F6;
-}
 .top-container{
   background-color: #EAF6F6;
   position: relative;
